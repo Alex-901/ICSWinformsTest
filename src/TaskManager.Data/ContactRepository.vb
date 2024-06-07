@@ -16,6 +16,7 @@ Public Class ContactRepository
                 command.Parameters.AddWithValue("@Email", contact.Email)
                 command.Parameters.AddWithValue("@Phone", contact.Phone)
                 command.ExecuteNonQuery()
+                'TEST
             End Using
         End Using
 
